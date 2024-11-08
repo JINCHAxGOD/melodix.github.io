@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music player</title>
+    <link rel="stylesheet" href="">
+    <style> 
+      body {
+height: 100%;
+margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.centered-container {
+  background-color: transparent;
+  color: black;
+  margin-top: 100px;
+  padding: 20px;
+  height: 415px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(2, 2, 2);
+  text-align: center;
+}
+button{
+    height: 80px;
+    width: 100px;
+    border-radius: 10px;
+    justify-content: center;
+   background-color: rgb(139, 137, 134);
+}
+.buttonpage {
+       
+        padding: 10px;
+        margin-top: 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+     .buttonpage:hover{
+        background-color: #005cbf;
+      }
+      .error {
+        color: #ff0000;
+        margin-top: 10px;
+      }
+      .buttonpage {
+           background-color: #1c87c9;
+           border: none;
+           color: white;
+           padding: 1px 11px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size: 20px;
+           cursor: pointer;
+        }
+    </style>
+</head>
+<body style="background-image: url(downloadfile.jpg); background-size: cover">
+  <div class="centered-container" >
+    <header style="color: #000000; font-size: 25px;"><u>Select Music</header>
+  <button id="Button8" style="font-size: ;">Rajabee Khadee Jathukal</button><button id="Button9">Fear Song</button><button id="Button10">Nalu Vattam</button> 
+  <button id="Button11">Manne Nambi</button><button id="Button"></button><button id="Button2"></button>
+    
+    <button id="Button3"></button><button id="Button4"></button><button id="Button5"></button><br> 
+
+    <button id="Button6"></button><button id="Button7"></button><br>
+    <a href="selectmusic.html" class="buttonpage"><</a> <a class="buttonpage">2</a> <a href="" class="buttonpage">></a>
+    
+  </div>
+     <script>
+     document.getElementById('Button').addEventListener('click',function() {
+        window.location.href ='http://127.0.0.1:5500/Kasavinaal.html';
+    }) 
+      document.getElementById('Button2').addEventListener('click',function() {
+        window.location.href ='http://127.0.0.1:5500/nishani.html';
+       }) 
+       document.getElementById('Button3').addEventListener('click',function(){
+        window.location.href ='http://127.0.0.1:5500/gunamaniyayarazululla.html';
+       })
+       document.getElementById('Button4').addEventListener('click',function(){
+        window.location.href ='http://127.0.0.1:5500/thirakkivannaneram.html';
+       })
+       document.getElementById('Button5').addEventListener('click',function() {
+       window.location.href ='http://127.0.0.1:5500/sajnifromlaptaladies.html';
+       })
+       document.getElementById('Button6').addEventListener('click' ,function(){
+        window.location.href ='http://127.0.0.1:5500/koisi.html';
+       })
+       document.getElementById('Button7').addEventListener('click' ,function(){
+        window.location.href ='http://127.0.0.1:5500/kanavu.html';
+       })
+       document.getElementById('Button8').addEventListener('click' ,function(){
+        window.location.href ='http://127.0.0.1:5500/rajabeekhadeejathukal.html';
+       })
+       document.getElementById('Button9').addEventListener('click' ,function(){
+        window.location.href ='http://127.0.0.1:5500/fearsong.html';
+       })
+        document.getElementById('Button10').addEventListener('click' ,function(){
+        window.location.href ='http://127.0.0.1:5500/naluvattam.html';
+       })
+         document.getElementById('Button11').addEventListener('click' ,function(){
+        window.location.href ='http://127.0.0.1:5500/manenambi.html';
+       });
+      
+      
+       
+       </script>
+</body>
+</html>

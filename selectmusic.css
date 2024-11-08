@@ -1,0 +1,13 @@
+body{
+    background-image: url(downloadfile.jpg);
+    background-size: cover;
+}
+button{
+    height: 80px;
+    width: 300px;
+    border-radius: 10px;
+   background-color: rgb(133, 133, 133);
+}
+.Button{
+float: left;
+}

@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>reegister</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <form id="form" class="form" method="POST">
+                <h2 style="color: aqua;">Register With Us</h2>
+            
+                <div class="form-control">
+                    <labal for="username" style="color: blue;">Username</labal>
+                    <input type="text" id="username" placeholder="Enter username" />
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="password" style="color: blue;">Password</label>
+                    <input type="password" id="password" placeholder="Enter password" />
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="password2" style="color: blue;">Confirm Password</label>
+                    <input
+                    type="password"
+                    id="password2"
+                    placeholder="Enter Password again"
+                    />
+                    <header style="color: blue;">Select Male Or Female</header>
+                    <select>
+                        <option>Select</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                    <div class="form-control">
+                        <label for="age" style="color: blue;">Age</label>
+                        <input type="number" id="age" placeholder="Enter Your Age">
+                    <small>Error message</small>
+                    <button id="dynamicButton" class="button" onclick="onAlert()">Sign</button>
+                </div>
+                <a type="#" href="login.html" >Already Have An Account</a>
+                </div>
+            </form>
+        </div>
+       <script src="script.js">
+        function onAlert(){
+        alert("Account Creating Please Wait..")
+        }
+       </script>
+      
+    </body>
+</html>

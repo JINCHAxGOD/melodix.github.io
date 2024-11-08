@@ -1,0 +1,13 @@
+body{
+    height: 110px;
+    background-color: black;
+ background-image: url(pexels-asadphoto-3293148.jpg);
+ background-size: cover;
+}
+.button{
+    color: rgb(252, 252, 252);
+    background-color: skyblue;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
